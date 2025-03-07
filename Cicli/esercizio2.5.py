@@ -1,1 +1,0 @@
-print(""""Maggiore è la massa, maggiore è l'attrazione." -Newton""")

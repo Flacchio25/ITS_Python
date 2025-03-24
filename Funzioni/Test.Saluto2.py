@@ -14,5 +14,5 @@ from saluto import greet
 greet("Claudia")
 
 from saluto import greet as g
-b
+
 g("Claudia")

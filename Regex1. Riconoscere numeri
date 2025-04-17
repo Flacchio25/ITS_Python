@@ -1,0 +1,13 @@
+import re
+
+def soloNumeri(s):
+    return bool(re.match(^-?\d+$))
+    import re
+
+def soloNumeri(s):
+    return bool(re.match(r'^-?\d+$', str(s)))  
+
+print(soloNumeri("-55")) 
+print(soloNumeri(42))     
+print(soloNumeri("abc"))
+print(soloNumeri(-55))

@@ -2,9 +2,9 @@
 class Persona:
 
     def __init__(self, name: str, lastname:str, age:int):
-        self.name = name
-        self.lastname = lastname
-        self.age = age
+        self.setName = name
+        self.setLastname = lastname
+        self.setAge = age
 
     
 
@@ -16,3 +16,24 @@ def __call__(self):
         print(f"{self.name} {self.lastname} è minorenne")
     else:
         print(f"{self.name} {self.lastname} è una persona adulta")
+
+def SetName(self, name:str):
+    if name:
+          self.name = name
+    else:
+        print("Error! Il nome non può essere una stringa vuota")
+
+def SetLastName(self, lastname:str):
+    if lastname:
+          self.lastname = lastname
+    else:
+        print("Error! Il cognome non può essere una stringa vuota")
+
+def SetAge(self, age:int):
+    if age < 0 or age > 130:
+        self.age = 0
+    else:
+         
+def speak(self):
+    
+    

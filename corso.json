@@ -1,0 +1,10 @@
+{
+    "corso": "AnalisiDati",
+    "studenti": 19,
+    "attivo": true,
+    "moduli": [
+        "Python",
+        "AI",
+        "Python4"
+    ]
+}
